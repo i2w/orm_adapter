@@ -1,8 +1,9 @@
 language: ruby
 
-include:
-  - rvm: 1.9.3
-    gemfile: gemfiles/activerecord-4.gemfile
+matrix:
+  include:
+    - rvm: 1.9.3
+      gemfile: gemfiles/activerecord-4.gemfile
 
-  - rvm: 2.0.0
-    gemfile: gemfiles/activerecord-4.gemfile
+    - rvm: 2.0.0
+      gemfile: gemfiles/activerecord-4.gemfile
