@@ -15,3 +15,6 @@ matrix:
 
     - rvm: 2.0.0
       gemfile: gemfiles/activerecord-4.gemfile
+
+    - rvm: rbx
+      gemfile: gemfiles/activerecord-4.gemfile
